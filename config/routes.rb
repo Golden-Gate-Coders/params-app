@@ -5,4 +5,8 @@ Rails.application.routes.draw do
   get "/game" => "pages#game"
 
   get "/url_params/:message" => "pages#url_params"
+
+  get "/form" => "pages#form"
+  post "/form_result" => "pages#form_result"
+
 end

@@ -21,4 +21,12 @@ class PagesController < ApplicationController
     @message = params[:message]
   end
 
+  # To view or fill out the form
+  def form
+  end
+
+  def form_result
+    @message = params[:form_message]
+  end
+
 end
